@@ -1,0 +1,142 @@
+body {
+    background-image: url(https://cdn.wallpapersafari.com/23/79/kDwMpC.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Sección del HEADER o CABECERA de la pagina web */
+
+header div {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 250px;
+}
+
+header img {
+    width: 700px;
+    height: auto;
+}
+
+header p {
+    font-family: jost; sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+
+/* Sección menú de navegacion acerca de mi y el proyecto */
+
+
+header nav div {
+    background-color: transparent;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: inherit;
+}
+
+header nav ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ol li a{
+    color: rgb(255, 255, 255);
+    font-family: jost; sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ol li a:hover{
+    background-color: rgba(231, 141, 5, 0.904);
+}
+
+nav ol li a.activo{
+    background-color: #d9e94b;
+}
+
+.about{
+    display: flex;
+    margin-right: 275px;
+    flex-direction: row;
+}
+
+.about p{
+    font-family: jost; sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.about img{
+    height: 80px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project{
+    display: flex;
+    margin-right: 275px;
+    flex-direction: row-reverse;
+}
+
+.project p{
+    font-family: jost; sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.project img{
+    height: 80px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Sección menú de navegacion */
+
+
+nav{
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: rgba(231, 141, 5, 0.904);
+}
+
+nav ul li a.activo{
+    background-color: #d9e94b;
+}
