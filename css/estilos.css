@@ -32,7 +32,7 @@ header p {
 
 
 /* Sección menú de navegacion acerca de mi y el proyecto */
-
+/* Parte I - nav */
 
 header nav div {
     background-color: transparent;
@@ -68,6 +68,8 @@ nav ol li a.activo{
     background-color: #d9e94b;
 }
 
+/* Parte II - about */
+
 .about{
     display: flex;
     margin-right: 275px;
@@ -86,6 +88,8 @@ nav ol li a.activo{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/* Parte III - project */
 
 .project{
     display: flex;
@@ -128,6 +132,8 @@ nav ol li a.activo{
     margin-right: 15px;
 }
 
+/* Parte IV - disclaimer */
+
 .disclaimer{
     display: flex;
     flex-direction: row;
@@ -140,7 +146,16 @@ nav ol li a.activo{
     font-size: 18px;
 }
 
-/* Sección menú de navegacion */
+.disclaimer img{
+    height: auto;
+    width: 100px;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+
+
+/* Sección menú de navegacion para secciones*/
 
 
 nav{
