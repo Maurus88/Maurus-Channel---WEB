@@ -8,26 +8,31 @@ body {
 /* Sección del HEADER o CABECERA de la pagina web */
 
 header div {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: 250px;
+    margin-top: 150px;
+    margin-left: 75px;
+    margin-right: 75px;
+    justify-content: space-between;
 }
 
 header img {
-    width: 700px;
+    display: flex;
+    margin-right: 5%;
+    width: 250px;
     height: auto;
 }
 
 header p {
+    display: column;
+    justify-content: center;
     font-family: jost; sans-serif;
     color: rgb(255, 255, 255);
     font-style: italic;
     font-size: 15px;
     line-height: 22px;
-    text-align: justify;
+    text-align: center;
 }
 
 
@@ -73,6 +78,7 @@ nav ol li a.activo{
 .about{
     display: flex;
     flex-direction: row;
+    margin-top: 250px;
 }
 
 .about p{
