@@ -5,16 +5,22 @@ body {
     background-size: cover;
 }
 
-/* Sección del HEADER o CABECERA de la pagina web */
-
-header div {
+.start{
     display: flex;
     flex-direction: row;
-    align-items: center;
     margin-top: 150px;
     margin-left: 75px;
     margin-right: 75px;
-    justify-content: space-between;
+}
+
+/* Sección del HEADER o CABECERA de la pagina web */
+
+header .banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 header img {
@@ -25,7 +31,7 @@ header img {
 }
 
 header p {
-    display: column;
+    display: flex;
     justify-content: center;
     font-family: jost; sans-serif;
     color: rgb(255, 255, 255);
