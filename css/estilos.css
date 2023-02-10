@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://cdn.wallpapersafari.com/23/79/kDwMpC.gif);
+    background-image: url(https://i.ibb.co/Gsp9cQp/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -72,7 +72,6 @@ nav ol li a.activo{
 
 .about{
     display: flex;
-    margin-right: 275px;
     flex-direction: row;
 }
 
@@ -98,7 +97,6 @@ nav ol li a.activo{
 
 .project_text{
     display: flex;
-    margin-right: 10px;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -107,8 +105,6 @@ nav ol li a.activo{
     display: flex;
     flex-direction: row;
     align-items: first flex-end;
-    padding-left: auto;
-    padding-right: 200px;
 }
 
 .project .pline1{
@@ -137,7 +133,6 @@ nav ol li a.activo{
 .disclaimer{
     display: flex;
     flex-direction: row;
-    margin-right: 220px;
 }
 
 .disclaimer p{
