@@ -237,3 +237,15 @@ footer p{
 
 
 /* ================ESTILOS DE VIDEO-GAMES================ */
+
+.pvideog{
+    display: flex;
+    flex-direction: row;
+    font-family: jost; sans-serif;
+    font-style: italic;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+}
