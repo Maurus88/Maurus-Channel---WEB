@@ -2,16 +2,6 @@ body {
     background-color: #fffaf2;
 }
 
-.start{
-    display: flex;
-    flex-direction: row;
-    margin-top: 150px;
-    margin-left: 75px;
-    margin-right: 75px;
-}
-
-/* Sección del HEADER o CABECERA de la pagina web */
-
 header .banner{
     display: flex;
     flex-direction: row;
@@ -27,10 +17,27 @@ header img {
     height: auto;
 }
 
-header p {
+
+/* ================ESTILOS DEL INDEX================ */
+
+
+.start{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+
+/* ====Sección del HEADER o CABECERA de la pagina web==== */
+
+
+.pindex{
+    display: flex;
+    flex-direction: row;
     font-family: jost; sans-serif;
+    justify-content: center;
     color: rgb(0, 0, 0);
     font-style: italic;
     font-size: 15px;
@@ -50,8 +57,9 @@ header p {
 }
 
 
-/* Sección menú de navegacion acerca de mi y el proyecto */
-/* Parte I - nav */
+/* ====Sección menú de navegacion acerca de mi y el proyecto==== */
+/* ====Parte I - nav==== */
+
 
 header nav div {
     background-color: transparent;
@@ -80,14 +88,16 @@ nav ol li a{
 }
 
 nav ol li a:hover{
-    background-color: rgba(231, 141, 5, 0.904);
+    background-color: rgba(186, 5, 231, 0.973);
 }
 
 nav ol li a.activo{
     background-color: #d9e94b;
 }
 
-/* Parte II - about */
+
+/* ====Parte II - about==== */
+
 
 .about{
     display: flex;
@@ -110,7 +120,9 @@ nav ol li a.activo{
     border-radius: 50%;
     }
 
-/* Parte III - project */
+
+/* ====Parte III - project==== */
+
 
 .project{
     display: flex;
@@ -153,7 +165,9 @@ nav ol li a.activo{
     border-radius: 30%;
 }
 
-/* Parte IV - disclaimer */
+
+/* ====Parte IV - disclaimer==== */
+
 
 .disclaimer{
     display: flex;
@@ -167,7 +181,9 @@ nav ol li a.activo{
 }
 
 
-/* Sección menú de navegacion para secciones*/
+/* ================COMPARTIDOS ENTRE PAGINAS================ */
+
+/* ====Sección menú de navegacion para secciones==== */
 
 
 nav{
@@ -187,17 +203,37 @@ nav ul li{
 }
 
 nav ul li a{
+    font-family: jost; sans-serif;
+    font-style: oblique;
     color: rgb(0, 0, 0);
-    text-decoration: underline;
     padding: 3px 6px;
     display: block;
     text-align: center;
 }
 
 nav ul li a:hover{
-    background-color: rgba(231, 141, 5, 0.904);
+    background-color: rgba(186, 5, 231, 0.973);
 }
 
 nav ul li a.activo{
     background-color: #d9e94b;
 }
+
+
+/* ====Footer o pié de pagina==== */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    font-family: trebuchet MS;
+    font-style: normal;
+    font-size: 15px;
+    color: #7c7673
+}
+
+
+/* ================ESTILOS DE VIDEO-GAMES================ */
