@@ -128,6 +128,7 @@ nav ol li a.activo{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 100px;
 }
 
 .project_text{
@@ -153,6 +154,7 @@ nav ol li a.activo{
     font-style: italic;
     color: rgb(0, 0, 0);
     font-size: 15px;
+    margin-top: 0%;
 }
 
 .project img{
@@ -172,12 +174,24 @@ nav ol li a.activo{
 .disclaimer{
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
 }
 
 .disclaimer p{
     font-family: jost; sans-serif;
     color: rgb(0, 0, 0);
     font-size: 25px;
+}
+
+
+/* ====Parte IV - disclaimer==== */
+
+.contact{
+    
+}
+
+.contact .form{
+    display:grid;
 }
 
 
